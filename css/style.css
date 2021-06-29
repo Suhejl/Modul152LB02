@@ -85,15 +85,4 @@ section {
   text-align: left;
   padding-top: 7rem; }
 
-@media (min-width: 1820px) {
-  .img {
-    min-width: 40rem;
-    min-height: 20rem;
-    max-width: 100%; } }
-@media (min-width: 1920px) {
-  .img {
-    min-width: 50rem;
-    min-height: 30rem;
-    max-width: 100%; } }
-
 /*# sourceMappingURL=style.css.map */
