@@ -1,0 +1,143 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-primary: "Ubuntu", sans-serif;
+}
+
+.svg-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+svg {
+  path {
+    transition: 0.1s;
+  }
+
+  //   &:hover path {
+  //     d: path("M 800 300 Q 400 250 0 300 L 0 0 L 800 0 L 800 300 Z");
+  //   }
+}
+
+body {
+  background: #fff;
+  color: #333;
+  font-family: var(--font-primary);
+  position: relative;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+header {
+  color: #fff;
+  padding-top: 10vw;
+  padding-bottom: 30vw;
+  text-align: center;
+}
+
+main {
+  background: linear-gradient(to bottom, #ffffff 0%, #dddee1 100%);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10vh 0 80vh;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+
+  //   &::after {
+  //     border-right: 2px dashed #eee;
+  //     content: "";
+  //     position: absolute;
+  //     top: calc(10vh + 1.618em);
+  //     bottom: 0;
+  //     left: 50%;
+  //     width: 2px;
+  //     height: 100%;
+  //   }
+}
+
+footer {
+  background: #dddee1;
+  padding: 5vh 0;
+  text-align: center;
+  position: relative;
+}
+
+small {
+  opacity: 0.5;
+  font-weight: 300;
+
+  a {
+    color: inherit;
+  }
+}
+
+section{
+  padding: 6rem 0;
+}
+
+/* School */
+
+.section-heading h1{
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+.school .btn{
+  width: 150px;
+  color: blue;
+  transition: background-color 650ms;
+  border: 1px solid;
+}
+
+.school .btn:hover{
+  width: 150px;
+  color: white;
+  background-color: blue;
+}
+
+.subsection-preview-image {
+
+  display: block;
+}
+
+.school {
+  margin-inline: auto;
+  // width: min(95%, 90.5rem);
+}
+
+.subsection-description {
+  direction: ltr;
+}
+
+.subsection-description {
+  text-align: left;
+  padding-top: 7rem;
+}
+
+@media(min-width: 1820px){
+  .img{
+    min-width: 40rem;
+    min-height: 20rem;
+    max-width: 100%;
+  }
+}
+
+@media(min-width: 1920px){
+  .img{
+    min-width: 50rem;
+    min-height: 30rem;
+    max-width: 100%;
+  }
+}
+
